@@ -1,0 +1,34 @@
+{
+  "name": "animals",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.5",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "twig": "~0.10.3"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LouzirMohamedAziz/forAnimals.git"
+  },
+  "keywords": [
+    "animals"
+  ],
+  "author": "louzir@esprit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LouzirMohamedAziz/forAnimals/issues"
+  },
+  "homepage": "https://github.com/LouzirMohamedAziz/forAnimals#readme",
+  "description": ""
+}
