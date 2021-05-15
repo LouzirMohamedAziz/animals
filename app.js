@@ -19,7 +19,7 @@ var app = express();
 mongoose.connect(url,{useNewUrlParser:true},{useUnifiedTopology:true})
 const con = mongoose.connection
 con.on('open',()=>{
-  console.log('Connected to your MongoDB')
+  console.log('MongoDB connected')
 })
 process.on('unhandledRejection', err => {
   throw err;
